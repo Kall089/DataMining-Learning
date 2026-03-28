@@ -61,6 +61,11 @@ DataMining/Day-[DAY_NUMBER] ([TOPIC_NAME])/
 │   ├── solution_1.ipynb  (solusi lengkap + penjelasan)
 │   ├── solution_2.ipynb
 │   └── ... (satu per exercise)
+├── tugas/
+│   ├── tugas_01.ipynb  (15 soal tugas — TANPA solusi)
+│   ├── tugas_02.ipynb
+│   ├── ... (hingga tugas_15.ipynb)
+│   └── FORMAT: soal + data input + expected output + TODO cell
 ├── dataset/              (jika pakai dataset custom/lokal)
 └── README.md             (panduan belajar hari ini)
 
@@ -248,7 +253,21 @@ C. SOLUTION NOTEBOOKS (.ipynb):
    ✅ Alternative approaches disebutkan
    ✅ Visualisasi tambahan jika memperjelas
 
-D. README.md:
+D. TUGAS NOTEBOOKS (.ipynb) — TANPA SOLUSI:
+   ✅ 15 tugas per hari (tugas_01.ipynb sampai tugas_15.ipynb)
+   ✅ HANYA berisi: problem statement + data input + expected output + TODO cell
+   ✅ TIDAK ADA solusi — siswa harus mengerjakan sendiri
+   ✅ Format setiap notebook:
+      - [Markdown] Judul + deskripsi soal lengkap
+      - [Code] Data input / starter code / imports
+      - [Code] Cell kosong dengan "# TODO: Kerjakan di sini"
+      - [Markdown] Expected Output (contoh output yang benar)
+   ✅ Progresif: tugas 1-5 (Easy), tugas 6-10 (Medium), tugas 11-15 (Hard)
+   ✅ Topik soal harus sesuai dengan teori hari itu
+   ✅ Dataset yang digunakan bervariasi (tidak monoton)
+   ✅ Expected output harus spesifik dan bisa diverifikasi
+
+E. README.md:
    ✅ Learning objectives hari ini
    ✅ Prerequisites
    ✅ Step-by-step learning guide
@@ -328,6 +347,7 @@ Buat struktur lengkap:
 - teori/Day_XX_Teori_Lengkap.ipynb (teori + kode + visualisasi)
 - latihan/exercise_1-5.ipynb (exercise dengan TODO cells)
 - solusi/solution_1-5.ipynb (solusi lengkap)
+- tugas/tugas_01-15.ipynb (15 soal TANPA solusi, hanya input + expected output)
 - README.md
 
 Ikuti roadmap 112 hari Data Mining. Semua notebook harus RUNNABLE.
@@ -788,6 +808,12 @@ DataMining/Day-01 (Tipe Data & Struktur Dataset)/
 │   ├── solution_3.ipynb
 │   ├── solution_4.ipynb
 │   └── solution_5.ipynb
+├── tugas/                  # 15 SOAL TANPA SOLUSI
+│   ├── tugas_01.ipynb     # Identifikasi tipe data
+│   ├── tugas_02.ipynb     # Membuat DataFrame dari dict
+│   ├── tugas_03.ipynb     # DataFrame dari list of lists
+│   ├── ...                # (tugas_04 - tugas_14)
+│   └── tugas_15.ipynb     # Merge/Join DataFrame
 └── README.md
 ```
 

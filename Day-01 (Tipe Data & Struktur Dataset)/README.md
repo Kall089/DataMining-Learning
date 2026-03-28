@@ -49,6 +49,22 @@ Day-01 (Tipe Data & Struktur Dataset)/
 │   ├── solution_3.ipynb
 │   ├── solution_4.ipynb
 │   └── solution_5.ipynb
+├── tugas/                   ← 15 soal TANPA solusi!
+│   ├── tugas_01.ipynb       # Identifikasi tipe data (Easy)
+│   ├── tugas_02.ipynb       # DataFrame dari dictionary (Easy)
+│   ├── tugas_03.ipynb       # DataFrame dari list of lists (Easy)
+│   ├── tugas_04.ipynb       # Filter kondisi numerik (Easy)
+│   ├── tugas_05.ipynb       # Filter kondisi string (Easy)
+│   ├── tugas_06.ipynb       # Statistik deskriptif (Medium)
+│   ├── tugas_07.ipynb       # GroupBy & aggregasi (Medium)
+│   ├── tugas_08.ipynb       # Kolom baru calculated (Medium)
+│   ├── tugas_09.ipynb       # Konversi tipe data (Medium)
+│   ├── tugas_10.ipynb       # Sorting multi-kolom (Medium)
+│   ├── tugas_11.ipynb       # Missing values analysis (Hard)
+│   ├── tugas_12.ipynb       # Value counts & cross-tab (Hard)
+│   ├── tugas_13.ipynb       # Slicing iloc & loc (Hard)
+│   ├── tugas_14.ipynb       # Rename & reset index (Hard)
+│   └── tugas_15.ipynb       # Merge/Join DataFrame (Hard)
 └── README.md               ← File ini
 ```
 
@@ -79,6 +95,18 @@ Day-01 (Tipe Data & Struktur Dataset)/
 - Buka solusi HANYA setelah mencoba sendiri minimal 15 menit
 - Bandingkan pendekatan kamu dengan solusi
 - Catat teknik yang belum kamu gunakan
+
+### Step 4: Kerjakan Tugas (2–3 jam)
+
+Folder `tugas/` berisi **15 soal tanpa solusi** — kerjakan mandiri!
+
+| Tugas | Topik | Difficulty |
+|-------|-------|------------|
+| `tugas_01` - `tugas_05` | Identifikasi tipe data, buat DataFrame, filter | Easy |
+| `tugas_06` - `tugas_10` | Statistik, groupby, calculated column, sorting | Medium |
+| `tugas_11` - `tugas_15` | Missing values, cross-tab, slicing, merge | Hard |
+
+> **Format**: Setiap notebook berisi soal + data input + expected output. Kamu hanya perlu mengisi cell `# TODO`.
 
 ---
 
@@ -114,6 +142,11 @@ Day-01 (Tipe Data & Struktur Dataset)/
 ### Exercise
 - [ ] Selesaikan minimal **4 dari 5 exercise** (semua exercise 1, 2, 3, 5 wajib)
 - [ ] Bisa jawab pertanyaan refleksi di setiap exercise
+
+### Tugas
+- [ ] Selesaikan minimal **10 dari 15 tugas**
+- [ ] Output yang dihasilkan sesuai dengan expected output
+- [ ] Tugas 1-5 (Easy) wajib semua benar
 
 ---
 
@@ -186,6 +219,7 @@ pip install scipy
 
 - Date: _____________
 - Exercise selesai: ____ / 5
+- Tugas selesai: ____ / 15
 - Waktu total: ____ jam
 - Konsep yang masih bingung:
   ```
