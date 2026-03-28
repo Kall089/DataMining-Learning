@@ -24,12 +24,12 @@ DataMining/
 
 ## 🗺️ Roadmap Singkat (112 Hari)
 
-| Bulan | Tema | Hari |
-|-------|------|------|
-| 1 | Foundation: Statistik + Preprocessing + Python Tools + Probability | 1–28 |
-| 2 | Core ML: Supervised + Classification + Advanced + Unsupervised | 29–56 |
-| 3 | Real Data: Feature Engineering + Pipeline + Big Picture + Mini Project | 57–84 |
-| 4 | Advanced: Time Series + NLP + Recommender + Final Project | 85–112 |
+| Bulan | Tema                                                                   | Hari   |
+| ----- | ---------------------------------------------------------------------- | ------ |
+| 1     | Foundation: Statistik + Preprocessing + Python Tools + Probability     | 1–28   |
+| 2     | Core ML: Supervised + Classification + Advanced + Unsupervised         | 29–56  |
+| 3     | Real Data: Feature Engineering + Pipeline + Big Picture + Mini Project | 57–84  |
+| 4     | Advanced: Time Series + NLP + Recommender + Final Project              | 85–112 |
 
 ## 🛠️ Setup Environment
 
